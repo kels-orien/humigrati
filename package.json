@@ -1,0 +1,27 @@
+{
+  "name": "humigrati",
+  "version": "1.0.0",
+  "description": "A company web application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kels-orien/humigrati.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kels-orien/humigrati/issues"
+  },
+  "homepage": "https://github.com/kels-orien/humigrati#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
