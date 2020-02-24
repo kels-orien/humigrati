@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import css from "../../css/index.scss"
 
 export default function Layout(props) {
     return (
@@ -11,9 +12,9 @@ export default function Layout(props) {
 for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
  includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "></meta>
           <title>{props.title}</title>
-          <script src="https://cdn.polyfill.io/v2/polyfill.min.js"/>
+          <style dangerouslySetInnerHTML={{__html: css}}/>
         </Head>
-        
+
         </div>
     )
 }
