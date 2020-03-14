@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Style from "../../css/index.scss"
+import Head from '../node_modules/next/head'
+import Link from '../node_modules/next/link'
+import Style from "../css/index.scss"
 
 
 const Layout = props => {

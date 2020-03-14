@@ -1,5 +1,5 @@
 
- function index() {
+ function Home() {
     return (
         <div id="banner">
 			    <div className="container">
@@ -8,6 +8,6 @@
     )
 }
 
-export default index()
+export default Home
 
 
