@@ -1,9 +1,12 @@
-function Clients() {
+import Layout from "../../components/layout"
+import Clients from "./clients"
+
+function index() {
     return (
-        <div>
-            Welcome to Clients
-        </div>
+        <Layout title="Clients">
+            <Clients/>
+        </Layout>
     )
 }
 
-export default Clients
+export default index

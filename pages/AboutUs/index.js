@@ -1,9 +1,16 @@
+import Layout from "../../components/layout"
+import About from "./about"
+
+
 function AboutUs() {
     return (
-        <div>
-            Welcome to ABOUT US
-        </div>
+        <Layout title="About Us">
+            <About/>
+        </Layout>
     )
 }
 
 export default AboutUs
+
+
+

@@ -1,11 +1,11 @@
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
+import Home from "./home"
 
 function HomePage() {
     return (
-        <div>
-           
-        <Layout title={"Homepage | Humigrati Chemical Company Limited"}/>
-            <nav className="navbar">Welcome to Next.js!</nav>
+        <div className="top">
+            <Layout title={"Homepage | Humigrati Chemical Company Limited"} page={Home}/>
+            
         </div>
     )
 }
