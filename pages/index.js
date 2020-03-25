@@ -3,7 +3,7 @@ import Home from "./home"
 
 function HomePage() {
     return (
-        <div className="top">
+        <div className="page">
             <Layout title={"Homepage | Humigrati Chemical Company Limited"}>
               <Home/>
             </Layout>

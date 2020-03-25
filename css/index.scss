@@ -12,7 +12,9 @@ $assets-path: "../static" !default;
 * {
     margin: 0;
     padding: 0;
-    outline: 0;
+	outline: 0;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 	body,input,textarea,select
@@ -23,8 +25,8 @@ $assets-path: "../static" !default;
 		line-height: 1.75em;
 	}
 
-	body {
-		background:url("/assets/images/bg.jpg")
+	body, html {
+		background:url("/assets/images/bg.jpg");
 	}
 
 	button {

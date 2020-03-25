@@ -25,11 +25,10 @@ for many years with adaptable solutions for ever changing conditions and regulat
           <title>{props.title}</title>
           <style dangerouslySetInnerHTML={{__html: Style}}/>
         </Head>
-        
-        
-				
-					
-			
+		
+		    <div className="top">
+
+
             <header className ="header">
                 
                 <div className="header__container">
@@ -61,8 +60,37 @@ for many years with adaptable solutions for ever changing conditions and regulat
                 
                 </div>
             </header>
+            </div>
+            
            {props.children} 
-         
+        <footer className="bottom">
+            <div className="bottom-links">
+
+            <div className="col-footer">
+                <div className><h2>Services</h2> </div>
+                <ul className="footer-links">
+                    <li><span><i className="bottom-icon ion-md-arrow-dropright"/></span><a href="#">Production Chemicals</a></li>
+                    <li><i className="bottom-icon ion-md-arrow-dropright"/><a href="#">Drilling Chemicals</a></li>
+                    <li><i className="bottom-icon ion-md-arrow-dropright"/><a href="#">Crude Oil Analysis</a></li>
+                </ul>
+
+            </div>
+            
+           <div className="col-footer">
+               <div>
+                <h2>Contact Us</h2>
+                <div className="contact"><span><i className="bottom-icon ion-md-pin"/></span>22B Dugbo Lane Udu Enerhen Road Warri, Delta State</div>
+                <div className="contact"><span><i className="bottom-icon ion-md-call"/></span>+234816975813</div>
+                <div className="contact"><span><i className="bottom-icon ion-md-call"/></span>+2348053763760</div>
+               </div>
+          
+           </div>
+
+
+            </div>
+            
+           <div className="inc"><div className="inc-text">©2020 Humigrati Chemical Company Ltd. All rights reserved.| <a href="disclaimer">Disclaimer</a> |  Website designed and built by <a href="https://korien.dev">korien</a></div></div>
+        </footer>
         </React.Fragment>
     )
 }

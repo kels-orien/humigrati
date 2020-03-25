@@ -1,4 +1,8 @@
-
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
 .header {
     z-index: 1100;
     background-color: rgb(255, 255, 255);
@@ -112,7 +116,7 @@
   display: flex;
   flex-direction: row;
 
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         display: none;
 
  }
@@ -194,7 +198,7 @@
 }
 
 #banner {
-  padding: 22em 0em;
+  padding: 12em 0em;
   background:url("/assets/images/banner.jpg") no-repeat center;
   background-size: cover;
   color: #fff;
@@ -205,11 +209,127 @@
 }
 
 
+.page {
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+}
+
 .top {
   display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    z-index: 1100;
-    position: fixed;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1100;
+  position: fixed;
+  width: 100%;
+}
+
+.title {
+  text-align:center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.title-paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.bottom {
+  color: #FFF;
+}
+.bottom-links {
+  max-width: 80%;
+  margin: 0 auto;
+  font-weight: 500;
+
+  @media (min-width: 769px)
+     {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+footer h2 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-left: .5rem;
+}
+.footer-head {
+  border-bottom: 1px solid #303030;
+}
+.footer-links li {
+  line-height: 2rem;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.bottom-icon {
+   padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.col-footer {
+  margin: 10px;
+
+  @media (min-width: 1020px)
+  {
+    flex-basis: 0;
+  }
+
+  @media (min-width: 769px)
+   {
+      flex-grow: 1;
+  }
+
+}
+
+
+.inc {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  padding: 3em 0em;
+  border-top: 1px solid #303030;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.inc-text {
+  text-align: center;
+}
+
+.inc-text a {
+ color: #e95d3c;
+ text-decoration: none;
+
+ &:hover {
+   text-decoration: underline;
+ }
+}
+
+#__next {
+  height: 100%
+}
+
+
+.contact {
+  line-height: 2rem;
+}
+
+.description-wrapper {
+  background: rgba(0,0,0,.3);
+  padding: 1rem;
 }
