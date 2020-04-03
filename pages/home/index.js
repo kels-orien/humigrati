@@ -1,7 +1,7 @@
 
  function Home() {
     return (
-        <main>
+        <div>
         <div id="banner">
 			    <div className="container">
                     <section className="description-wrapper" aria-label="Optimising Oil Operations">
@@ -27,9 +27,9 @@
                 <h2 className="section-title">Our Products</h2>
                 <p  className="section-paragraph">Buy our tailor made chemicals solutions</p>
 
-                <div>
-
-                    <ul className="chemical-list">
+                <div className="products">
+                    <div className="products__name">
+                        <ul className="chemical-list">
                             <li><a  href="#"className="chemical-list-button">Corrosion Inhibitors</a></li>
                             <li><a  href="#"className="chemical-list-button">Defoamers</a></li>
                             <li><a  href="#"className="chemical-list-button">Degreasers</a></li>
@@ -45,7 +45,15 @@
                             <li><a href="#"className="chemical-list-button">Sludge Breakers</a></li>
                             <li><a href="#"className="chemical-list-button">Water Clarifier</a></li>
                             <li><a href="#"className="chemical-list-button">Wetting Agents</a></li>
-                    </ul>
+                        </ul>
+                    </div>   
+                    <div className="products__info">
+                    Across the globe we recognise the difficulties in oil processing, from extraction through to refinery. At Home
+                     our technology platforms are at the forefront of innovation working to provide solutions from upstream through to downstream processes. Our “Functions” pages categorise our additives by effect.
+                     Take a look through the pages to discover new and innovative solutions for operational challenges.
+
+                    </div>
+                   
                 </div>
             </div>
             
@@ -58,7 +66,7 @@
         
 
         <section className="about-us-home"></section>
-        </main>
+        </div>
         
     )
 }

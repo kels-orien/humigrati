@@ -418,6 +418,24 @@ footer h2 {
 .section-paragraph {
    font-size: 1.2rem;
 }
+.products {
+ width: auto;
+ display: flex;
+ flex-direction: row;
+ flex-grow: 1;
+
+  &__name {
+      width: auto;
+      display: inherit;
+      flex-wrap: wrap;
+  }
+
+  &__info {
+    width: auto;
+    display: inherit;
+    flex-wrap: wrap;
+  }
+}
 
 .chemical-list {
     padding-left: 2rem;
