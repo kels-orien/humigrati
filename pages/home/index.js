@@ -27,7 +27,10 @@
                 <h2 className="section-title">Our Products</h2>
                 <p  className="section-paragraph">Buy our tailor made chemicals solutions</p>
 
-                <div className="products">
+               
+            </div>
+            
+            <div className="products">
                     <div className="products__name">
                         <ul className="chemical-list">
                             <li><a  href="#"className="chemical-list-button">Corrosion Inhibitors</a></li>
@@ -43,21 +46,27 @@
                             <li><a href="#"className="chemical-list-button">Polyelectrolyte</a></li>
                             <li><a href="#"className="chemical-list-button">Scale Inhibitors</a></li>
                             <li><a href="#"className="chemical-list-button">Sludge Breakers</a></li>
-                            <li><a href="#"className="chemical-list-button">Water Clarifier</a></li>
+                            <li><a href="#"className="chemical-list-button">Water Clarifiers</a></li>
                             <li><a href="#"className="chemical-list-button">Wetting Agents</a></li>
                         </ul>
                     </div>   
                     <div className="products__info">
-                    Across the globe we recognise the difficulties in oil processing, from extraction through to refinery. At Home
-                     our technology platforms are at the forefront of innovation working to provide solutions from upstream through to downstream processes. Our “Functions” pages categorise our additives by effect.
-                     Take a look through the pages to discover new and innovative solutions for operational challenges.
-
+                        <p>Across the globe we recognise the difficulties in oil processing, from extraction through to refinery. At Home
+                            our technology platforms are at the forefront of innovation working to provide solutions from upstream through to downstream processes. Our “Functions” pages categorise our additives by effect.
+                            Take a look through the pages to discover new and innovative solutions for operational challenges.
+                        </p>
+                        <div ><a href="#" className="view-text">View all<i className="sy ion-md-arrow-round-forward"/></a></div>
                     </div>
+                  
                    
                 </div>
-            </div>
-            
-        
+        </section>
+
+        <section className="services row" aria-label="Products and Applications, Crude oil analysis Effluent water monitoring">
+            <aside className="image-block">
+
+            </aside>
+
         </section>
 
 

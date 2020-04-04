@@ -1,3 +1,6 @@
+@import "./variables.scss";
+
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -98,7 +101,7 @@
 }
 
 .active{
-    background: #e95d3c;
+    background: $color-primary;
     border-radius: 5px;
     color: #FFF;
 }
@@ -179,7 +182,7 @@
   position: absolute;
   top: -5px;
   left: -25px;
-  background-color: #e95d3c;
+  background-color: $color-primary;
   border-radius: 4px;
 }
 
@@ -264,7 +267,13 @@
     border-image: initial;
     padding: 1rem 1.5rem;
     text-decoration: none;
-    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all .2s;
+
+    &:hover{
+      background:rgb(236, 61, 38);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      transform: translateY(-3px);
+    }
 }
 .btn-div {
     align-content: center;
@@ -350,6 +359,12 @@ footer h2 {
     padding-right: 0.5rem;
 }
 
+.icon {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 2rem;
+}
+
 .col-footer {
   margin: 10px;
 
@@ -383,7 +398,7 @@ footer h2 {
 }
 
 .inc-text a {
- color: #e95d3c;
+ color: $color-primary;
  text-decoration: none;
 
  &:hover {
@@ -408,15 +423,18 @@ footer h2 {
 
 .our-products-header {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .section-title {
   font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: none;
 }
 
 .section-paragraph {
    font-size: 1.2rem;
+   margin-top: .5rem;
 }
 .products {
  width: auto;
@@ -424,28 +442,40 @@ footer h2 {
  flex-direction: row;
  flex-grow: 1;
 
+ 
+
   &__name {
-      width: auto;
+      width: 150%;
+      border-right: 1px solid #dddbdb;
       display: inherit;
       flex-wrap: wrap;
+      padding-left: 20px;
+      padding-right: 20px;
+      justify-content: center;
+      flex-direction: row;
   }
 
   &__info {
-    width: auto;
-    display: inherit;
-    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+    line-height:2rem;
   }
 }
 
 .chemical-list {
     padding-left: 2rem;
     padding-right: 2rem;
+    text-align: right;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .chemical-list-button {
     color: #fff;
-    background-color: #5097b3;
-    border-color: #5097b3;
+    background-color: $color-secondary;
+    border-color: $color-secondary;
     border-radius: 3px;
     display: inline-block;
     margin-bottom: 10px;
@@ -460,19 +490,55 @@ footer h2 {
     border: 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
-    font-size: 14px;
     line-height: 1.6666666667;
+
+    &:hover{
+      background:$color-primary;
+    }
 }
 
 .chemical-list-button a {
   padding-left: 20px;
   padding-right: 20px;
 }
+.view-text {
+  color: $color-primary;
+  font-weight: 500;
 
+  &:hover{
+    color:$color-secondary;
+    transform: translateY(-3px);
+  }
+}
+.chemical-list li {
+  display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
 .child-page {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -2rem;
+    margin-right: -2rem;
     text-align: center;
     margin-bottom: 20px;
     height: 100%;
+}
+
+.sy {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size:1rem;
+}
+
+.image-block {
+  height: 20rem;
+  margin: 0 0 20px;
+}
+
+.row {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.col-6 {
+  width: 50%
 }
