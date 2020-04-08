@@ -1,10 +1,11 @@
 
  function Home() {
     return (
-        <div>
-        <div id="banner">
+        <React.Fragment>
+        <section className="banner" aria-label="Optimising Oil Operations">
 			    <div className="container">
-                    <section className="description-wrapper" aria-label="Optimising Oil Operations">
+                    <section className="description-wrapper" aria-label="Humigrati has been extensively involved in  oil service projects specifically in the areas of effluent water monitoring,
+                             crude oil and crude characterization analysis, bottle tests">
                         <div className="col-xs-12">
                             <h1 className="title">Optimising Oil Operations</h1>
                             <div className="oil-operations"><p className="title-paragraph">
@@ -20,8 +21,8 @@
                         </div>
                     </section>
 			    </div>
-		</div>
-        <article className="child-page">
+		</section>
+        <article className="products-article">
         <section className="our-products" aria-label="Our Products demulsifiers, corrosion inhibitors scale inhibitors oil spill dispersant degreasers paraffin inhibitors paraffin solvents water clarifiers Quat biocide, THPS">
             <div className="our-products-header">
                 <h2 className="section-title">Our Products</h2>
@@ -62,20 +63,27 @@
                 </div>
         </section>
 
-        <section className="services row" aria-label="Products and Applications, Crude oil analysis Effluent water monitoring">
+        
+
+
+        </article>
+        <section className="col" aria-label="Products and Applications, Crude oil analysis Effluent water monitoring">
+         <div className="col-2">
             <aside className="image-block">
 
             </aside>
+         </div>
+         <div className="col-2">
+            <aside className="image-block">
+
+            </aside>
+         </div>
 
         </section>
 
 
-
-        </article>
-        
-
         <section className="about-us-home"></section>
-        </div>
+        </React.Fragment>
         
     )
 }

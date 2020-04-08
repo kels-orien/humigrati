@@ -93,7 +93,6 @@
         letter-spacing: 0.06em;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 1.1em;
         outline: 0;
         color: #333;
     }
@@ -118,6 +117,7 @@
   justify-content: space-between;
   display: flex;
   flex-direction: row;
+  position: fixed;
 
     @media (min-width: 769px) {
         display: none;
@@ -200,18 +200,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 960px;
 }
 
-#banner {
+.banner {
   padding: 12em 0em;
-  background:url("/assets/images/banner.jpg") no-repeat center;
+  background:url("/assets/images/banner2.jpg") no-repeat center;
   background-size: cover;
-  color: #fff;
+  color: $color-white;
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
   width: 100%;
+  background-color: $color-white;
 }
 
 
@@ -226,8 +226,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 1100;
-  position: fixed;
   width: 100%;
+  position: fixed;
 }
 
 .title {
@@ -418,7 +418,6 @@ footer h2 {
 .our-products {
   width: 100%;
   background-color: white;
-  position: relative;
 }
 
 .our-products-header {
@@ -515,12 +514,11 @@ footer h2 {
     margin-bottom: 10px;
     margin-left: 10px;
 }
-.child-page {
-    margin-left: -2rem;
-    margin-right: -2rem;
+.products-article {
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     height: 100%;
+    background: $color-white;
 }
 
 .sy {
@@ -530,15 +528,33 @@ footer h2 {
 }
 
 .image-block {
-  height: 20rem;
-  margin: 0 0 20px;
+    margin: 0 0 20px;
+
+
+  @media (min-width: 992px)
+     {
+      height: 20rem;
+    }
+
 }
 
-.row {
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+.image-block-2 {
+    
+  @media (min-width: 768px)
+  {
+   height: 20rem;
+   margin: 0 0 20px;
+ }
 }
 
 .col-6 {
   width: 50%
+}
+
+.col {
+  background:$color-white;
+
+  &-2 {
+    width: 50%
+  }
 }

@@ -3,12 +3,12 @@ import Home from "./home"
 
 function HomePage() {
     return (
-        <main className="page">
+        <div className="page">
             <Layout title={"Homepage | Humigrati Chemical Company Limited"}>
               <Home/>
             </Layout>
             
-        </main>
+        </div>
     )
 }
 

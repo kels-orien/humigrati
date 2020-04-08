@@ -15,7 +15,7 @@ const Layout = props => {
      }
 
     return (
-        <React.Fragment>
+        <main >
              <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -26,9 +26,9 @@ for many years with adaptable solutions for ever changing conditions and regulat
           <style dangerouslySetInnerHTML={{__html: Style}}/>
         </Head>
 		
-		    <div className="top">
+		    
 
-
+            <div className="top">
             <header className ="header">
                 
                 <div className="header__container">
@@ -60,7 +60,10 @@ for many years with adaptable solutions for ever changing conditions and regulat
                 
                 </div>
             </header>
+
             </div>
+           
+           
             
            {props.children} 
         <footer className="bottom">
@@ -91,7 +94,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
             
            <div className="inc"><div className="inc-text">©2020 Humigrati Chemical Company Ltd. All rights reserved.| <a href="disclaimer">Disclaimer</a> |  Website designed and built by <a href="https://korien.dev">korien</a></div></div>
         </footer>
-        </React.Fragment>
+        </main>
     )
 }
 
