@@ -69,15 +69,30 @@
         </article>
         <section className="col" aria-label="Products and Applications, Crude oil analysis Effluent water monitoring">
          <div className="col-2">
-            <aside className="image-block">
-
-            </aside>
+            <section className="image-block">
+                <header><h2 className ="t2">Products and Applications</h2></header>
+                <p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
+                <a href="#" class="button">More</a>
+            </section>
          </div>
          <div className="col-2">
-            <aside className="image-block">
-
-            </aside>
+            <section className="image-block">
+                <header><h2 className ="t2">Crude Oil Analysis</h2></header>
+                <p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
+                <a href="#" class="button">More</a>
+            </section>
          </div>
+         <div className="col-2">
+            <section className="image-block">
+                <header><h2 className="t2">Effluent Water Monitoring</h2></header>
+                <p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <a href="#"><img src="/assets/images/refinery2.jpg"  className="responsive-img" alt=""/></a>
+                <a href="#" class="button">More</a>
+            </section>
+         </div>
+        
 
         </section>
 

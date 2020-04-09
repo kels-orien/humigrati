@@ -204,7 +204,6 @@
 
 .banner {
   padding: 12em 0em;
-  background:url("/assets/images/banner2.jpg") no-repeat center;
   background-size: cover;
   color: $color-white;
   background-position: center center;
@@ -212,6 +211,7 @@
   overflow: hidden;
   width: 100%;
   background-color: $color-white;
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/images/banner2.jpg");
 }
 
 
@@ -304,7 +304,7 @@
   max-width: 100%;
 }
 .description-wrapper {
-  background: rgba(0,0,0,.3);
+  //background: rgba(0,0,0,.3);
   padding: 1rem;
   align-content: flex-start;
   align-items: flex-start;
@@ -441,6 +441,11 @@ footer h2 {
  flex-direction: row;
  flex-grow: 1;
 
+
+  @media (max-width: 768px)
+    {
+      display: block;
+    }
  
 
   &__name {
@@ -452,6 +457,11 @@ footer h2 {
       padding-right: 20px;
       justify-content: center;
       flex-direction: row;
+
+      @media (max-width: 768px)
+      {
+        width: auto;
+      }
   }
 
   &__info {
@@ -469,6 +479,11 @@ footer h2 {
     display: inline-block;
     margin-bottom: 10px;
     margin-left: 10px;
+
+    @media (max-width: 768px)
+      {
+        text-align: center;
+      }
 }
 
 .chemical-list-button {
@@ -531,11 +546,7 @@ footer h2 {
     margin: 0 0 20px;
 
 
-  @media (min-width: 992px)
-     {
-      height: 20rem;
-    }
-
+ 
 }
 
 .image-block-2 {
@@ -553,8 +564,41 @@ footer h2 {
 
 .col {
   background:$color-white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+
+
+  @media (max-width: 768px)
+  {
+   display: block;
+ }
 
   &-2 {
-    width: 50%
+    width: 25%;
+   
+
+    @media (max-width: 768px)
+    {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-bottom: 2rem;
+   }
   }
+}
+
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+.t2 {
+    margin-bottom: 1rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    text-align: center;
 }

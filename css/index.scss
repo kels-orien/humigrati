@@ -294,6 +294,12 @@ $assets-path: "../static" !default;
 			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			cursor: pointer;
+
+			@media (max-width: 768px) {
+				width: 100%;
+				text-align: center;
+		
+		 }
 		}
 
 			.button:hover
