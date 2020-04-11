@@ -31,6 +31,7 @@
             
         }
         
+        
         &__in {
             align-content: flex-start;
             -webkit-box-align: center;
@@ -58,6 +59,11 @@
                 text-decoration: none;
                 font-size: 2.4em;
                 font-weight: 600;
+
+                &:focus {
+                  outline: -webkit-focus-ring-color auto 10px;
+              }
+              
             }
         }
     }
@@ -75,8 +81,15 @@
             text-transform: uppercase;
             outline: 0;
             color: #333;
+
+            
         }
     }
+
+    &__menu-box a{
+      color:$color-black
+    }
+
     &__ul {
         display: flex;
         flex-direction: row;
@@ -102,7 +115,10 @@
 .active{
     background: $color-primary;
     border-radius: 5px;
-    color: #FFF;
+}
+
+.active a{
+  color:$color-white;
 }
 
 
@@ -156,6 +172,10 @@
     right: 0;
     top: 0;
     color: black;
+
+    &:focus {
+      outline: -webkit-focus-ring-color auto 1px;
+    }
   }
   
   .topnav a:hover {
@@ -184,12 +204,17 @@
   left: -25px;
   background-color: $color-primary;
   border-radius: 4px;
+
+  
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 .nav-mb-font {
     color: #333;
     font-size: 1rem;
-   
+ 
 }
 #myLinks {
   font-size: 1.2rem;
@@ -420,7 +445,7 @@ footer h2 {
   background-color: white;
 }
 
-.our-products-header {
+.our-header {
   text-align: center;
   padding: 2rem;
 }
@@ -509,6 +534,11 @@ footer h2 {
     &:hover{
       background:$color-primary;
     }
+
+    &:focus {
+      background:$color-primary;
+      text-decoration: underline;
+    }
 }
 
 .chemical-list-button a {
@@ -548,7 +578,9 @@ footer h2 {
 
  
 }
-
+.our-services {
+  background:$color-white;
+}
 .image-block-2 {
     
   @media (min-width: 768px)
@@ -559,11 +591,10 @@ footer h2 {
 }
 
 .col-6 {
-  width: 50%
+  width: 100%
 }
 
 .col {
-  background:$color-white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -602,3 +633,38 @@ footer h2 {
     font-size: 1.2rem;
     text-align: center;
 }
+
+.about-us-home {
+  width: 100%;
+};
+
+.bg-white {
+  background:$color-white;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+  @media (max-width: 768px)
+  {
+   display: block;
+ }
+}
+
+.t3 {
+  font-size:2.5rem;
+}
+
+.about-block {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media (max-width: 768px)
+  {
+    margin-top: 2rem;
+ }
+}
+

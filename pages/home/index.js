@@ -15,7 +15,7 @@
                               and manufactured effective chemicals for use in the oil industry for over twenty five years and have experienced field application engineers.
                             </p></div>
                         <div className="btn-div">
-                            <button className ="btn">Contact Us</button>
+                            <button type="button" className ="btn">Contact Us</button>
                         </div>
                             
                         </div>
@@ -24,7 +24,7 @@
 		</section>
         <article className="products-article">
         <section className="our-products" aria-label="Our Products demulsifiers, corrosion inhibitors scale inhibitors oil spill dispersant degreasers paraffin inhibitors paraffin solvents water clarifiers Quat biocide, THPS">
-            <div className="our-products-header">
+            <div className="our-header">
                 <h2 className="section-title">Our Products</h2>
                 <p  className="section-paragraph">Buy our tailor made chemicals solutions</p>
 
@@ -67,39 +67,77 @@
 
 
         </article>
-        <section className="col" aria-label="Products and Applications, Crude oil analysis Effluent water monitoring">
-         <div className="col-2">
-            <section className="image-block">
-                <header><h2 className ="t2">Products and Applications</h2></header>
-                <p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-                <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
-                <a href="#" class="button">More</a>
-            </section>
+        <section className="our-services" aria-label="Products and Applications, Crude oil analysis Effluent water monitoring">
+            <div className="our-header">
+                <h2 className="section-title">Our Services</h2>
+                <p  className="section-paragraph">Learn more about our services</p>
+            </div>
+        <div className="col">
+            <div className="col-2">
+                <section className="image-block">
+                    <header><h2 className ="t2">Products and Applications</h2></header>
+                        <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                        <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
+                        <a href="#" className="button">More</a>
+                </section>
          </div>
          <div className="col-2">
             <section className="image-block">
                 <header><h2 className ="t2">Crude Oil Analysis</h2></header>
-                <p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
                 <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
-                <a href="#" class="button">More</a>
+                <a href="#" className="button">More</a>
             </section>
          </div>
          <div className="col-2">
             <section className="image-block">
                 <header><h2 className="t2">Effluent Water Monitoring</h2></header>
-                <p class="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
                 <a href="#"><img src="/assets/images/refinery2.jpg"  className="responsive-img" alt=""/></a>
-                <a href="#" class="button">More</a>
+                <a href="#" className="button">More</a>
             </section>
          </div>
+
+
+
+        </div>
+         
         
 
         </section>
 
 
-        <section className="about-us-home"></section>
+        <section className="about-us-home bg-white">
+            <div className="our-header">
+                <header><h2 className="section-title">About Our Company</h2></header>
+
+            </div>
+            <div className="about-section col">
+                 <div className="col-6">    
+                    <section className="about-block">
+                        <p>In posuere eleifend odio. Quisque semper augue mattis maecenas ligula In
+                            posuere eleifend odio. Quisque semper augue mattis maecenas ligulaIn posuere eleifend odio.
+                            In posuere eleifend odio. Quisque semper augue mattis maecenas ligula
+                            In posuere eleifend odio. Quisque semper augue mattis maecenas ligula
+                            In posuere eleifend odio. Quisque semper augue mattis maecenas ligula
+                            In posuere eleifend odio. Quisque semper augue mattis maecenas ligula
+                             Quisque semper augue mattis maecenas ligula</p>
+                        <a href="#" className="button">More</a>
+                </section>
+            </div>
+            <div className="col-6">
+                <section className="about-block">
+                     <img src="/assets/images/building2.jpg"  className="responsive-img" alt=""/>
+                </section>
+            </div>
+        </div> 
+        </section> 
+
+        <section className="gallery bg-white">
+            
+            
+        </section>    
         </React.Fragment>
-        
     )
 }
 

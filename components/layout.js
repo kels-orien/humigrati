@@ -35,11 +35,11 @@ for many years with adaptable solutions for ever changing conditions and regulat
                     <div className="header__container__in"><a className="header__container__in__-1">HUMIGRATI</a></div>
                     <div className="header__ul">
                             <div className="header__menu-box">
-                             <li className="header__menu-box__in active">Home</li>   
-                             <li className="header__menu-box__in">Services</li>
-                             <li className="header__menu-box__in">About Us</li>
-                             <li className="header__menu-box__in">Clients</li>               
-                             <li className="header__menu-box__in">Contact Us</li>
+                             <li className="header__menu-box__in active"><a href="#">Home</a></li>   
+                             <li className="header__menu-box__in"><a href="#">Services</a></li>
+                             <li className="header__menu-box__in"><a href="#">About Us</a></li>
+                             <li className="header__menu-box__in"><a href="#">Clients</a></li>               
+                             <li className="header__menu-box__in"><a href="#">Contact Us</a></li>
                     </div>
                 </div>
                 </div> 
@@ -70,7 +70,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
             <div className="bottom-links">
 
             <div className="col-footer">
-                <div className><h2>Services</h2> </div>
+                <div><h2>Services</h2> </div>
                 <ul className="footer-links">
                     <li><span><i className="bottom-icon ion-md-arrow-dropright"/></span><a href="#">Production Chemicals</a></li>
                     <li><i className="bottom-icon ion-md-arrow-dropright"/><a href="#">Drilling Chemicals</a></li>
