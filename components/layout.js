@@ -32,7 +32,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
             <header className ="header">
                 
                 <div className="header__container">
-                    <div className="header__container__in"><a className="header__container__in__-1">HUMIGRATI</a></div>
+                    <div className="header__container__in"><a href="#" className="header__container__in__-1">HUMIGRATI</a></div>
                     <div className="header__ul">
                             <div className="header__menu-box">
                              <li className="header__menu-box__in active"><a href="#">Home</a></li>   
@@ -46,7 +46,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
             </header>
 			<header className ="header-mb">
                 <div className="topnav">
-                    <a href="#home" className="active-mb">HUMIGRATI</a>
+                    <div><a href="#" className="active-mb">HUMIGRATI</a></div>
                     <div id="myLinks">
                         <a className = "nav-mb-font" href="#services">Services</a>
                         <a className = "nav-mb-font" href="#about">About Us</a>

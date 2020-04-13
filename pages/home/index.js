@@ -16,8 +16,7 @@
                             </p></div>
                         <div className="btn-div">
                             <button type="button" className ="btn">Contact Us</button>
-                        </div>
-                            
+                        </div>   
                         </div>
                     </section>
 			    </div>
@@ -127,14 +126,219 @@
             </div>
             <div className="col-6">
                 <section className="about-block">
-                     <img src="/assets/images/building2.jpg"  className="responsive-img" alt=""/>
+                     <img src="/assets/images/building.jpg"  className="responsive-img" alt=""/>
                 </section>
             </div>
         </div> 
         </section> 
 
         <section className="gallery bg-white">
-            
+        <div className="our-header">
+                <header><h2 className="section-title">Our Gallery</h2></header>
+
+            </div>
+            <div>   
+                 <div className="container-gallery">
+                    <ul className="col-3">
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/warehouse.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Our Warehouse
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span> With Chemical Products</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Testing
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Bottle Testing</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/drums.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Drilling
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Drilling</span>
+                                                <span> Chemicals</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/oil-worker-pump.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Chemicals 
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Chemical Application</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/plant.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Plant
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Blending Plant</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/drums-p.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                        <h3 className="img-fontcolor">
+                                                Production
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Production Chemicals</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/warehouse-pt.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                        <h3 className="img-fontcolor">
+                                                Warehouse
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Warehouse with Products</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Testing
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Bottle Testing</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/blending-plant.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Blending Plant
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Chemical Blending</span>
+                                                <span> Plant</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                        <h3 className="img-fontcolor">
+                                                Testing
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Bottle Testing</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/drums-p.jpg"  className="responsive-img" alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                        <h3 className="img-fontcolor">
+                                                Production
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Production Chemical</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                        <li className="img-space">
+                            <div className="project-image">
+                            <img src="/assets/images/blending-plant.jpg"  alt=""/>
+                                 <div className="portfolio-overlay">
+                                        <div className="content">
+
+                                            <h3 className="img-fontcolor">
+                                                Blending Plant
+                                            </h3>
+                                            <div className="portfolio-tags">
+                                                <span>Chemical Blending</span>
+                                                <span> Plant</span>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </li>
+                    </ul>
+
+                 </div>
+            </div> 
             
         </section>    
         </React.Fragment>

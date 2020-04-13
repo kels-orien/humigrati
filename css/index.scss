@@ -6,7 +6,7 @@ $assets-path: "../static" !default;
 @import "custom.scss";
 @import "./roboto.scss";
 @import "../node_modules/ionicons/dist/scss/ionicons.scss";
-
+@import "./variables.scss";
 * {
     margin: 0;
     padding: 0;
@@ -530,5 +530,9 @@ $assets-path: "../static" !default;
 
 	a{
 		text-decoration: none;
+	}
+
+	a:focus{
+		outline: 1px solid $color-secondary;   
 	}
 
