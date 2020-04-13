@@ -76,7 +76,7 @@
                 <section className="image-block">
                     <header><h2 className ="t2">Products and Applications</h2></header>
                         <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-                        <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
+                        <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt=""/></a>
                         <a href="#" className="button">More</a>
                 </section>
          </div>
@@ -84,7 +84,7 @@
             <section className="image-block">
                 <header><h2 className ="t2">Crude Oil Analysis</h2></header>
                 <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-                <a href="#"><img src="/assets/images/refinery2.jpg" className="responsive-img" alt=""/></a>
+                <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt=""/></a>
                 <a href="#" className="button">More</a>
             </section>
          </div>
@@ -92,7 +92,7 @@
             <section className="image-block">
                 <header><h2 className="t2">Effluent Water Monitoring</h2></header>
                 <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-                <a href="#"><img src="/assets/images/refinery2.jpg"  className="responsive-img" alt=""/></a>
+                <a href="#"><img src="/assets/images/refinery.jpg"  className="responsive-img" alt=""/></a>
                 <a href="#" className="button">More</a>
             </section>
          </div>
