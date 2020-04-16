@@ -1,4 +1,4 @@
-
+import ContactForm from "../../components/contactform"
  function Home() {
     return (
         <React.Fragment>
@@ -158,7 +158,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt="Bottle Test"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -174,7 +174,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/drums.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/drums.jpg"  className="responsive-img" alt="Drums of Drilling Chemicals"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -191,7 +191,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/oil-worker-pump.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/oil-worker-pump.jpg"  className="responsive-img" alt="Oil Worker"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -207,7 +207,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/plant.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/plant.jpg"  className="responsive-img" alt="Plant"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -223,7 +223,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/drums-p.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/drums-p.jpg"  className="responsive-img" alt="Drums of Production Chemicals"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -239,7 +239,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/warehouse-pt.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/warehouse-pt.jpg"  className="responsive-img" alt="Warehouse"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -255,7 +255,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt="Bottle Test"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -271,7 +271,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/blending-plant.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/blending-plant.jpg"  className="responsive-img" alt="Blending Plant"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -288,7 +288,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/bottle-test.jpg"  className="responsive-img" alt="Bottle Test"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -304,7 +304,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/drums-p.jpg"  className="responsive-img" alt=""/>
+                            <img src="/assets/images/drums-p.jpg"  className="responsive-img" alt="Drums"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -320,7 +320,7 @@
                         </li>
                         <li className="img-space">
                             <div className="project-image">
-                            <img src="/assets/images/blending-plant.jpg"  alt=""/>
+                            <img src="/assets/images/blending-plant.jpg"  className="responsive-img" alt="Blending Plant"/>
                                  <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -339,7 +339,7 @@
 
                  </div>
             </div> 
-            
+            <ContactForm/>
         </section>    
         </React.Fragment>
     )

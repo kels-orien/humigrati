@@ -724,3 +724,151 @@ footer h2 {
   color:$color-primary;
   font-weight: 700;
 }
+
+.contact-fm {
+  display: block;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+.contact-name {
+    box-sizing: border-box;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0rem;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.contact-name-label {
+    cursor: text;
+    pointer-events: none;
+    color: rgb(112, 108, 100);
+    position: relative;
+    font-size: 0.875rem !important;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.contact-name-fs {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 0.5rem;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.contact-name-input {
+    resize: none;
+    min-width: 0px;
+    width: 100%;
+    font-weight: normal;
+    -webkit-appearance: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(36, 30, 18);
+    height: 3rem;
+    font-size: 1rem !important;
+    background: rgb(245, 244, 242);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 227, 221);
+    border-image: initial;
+    outline: none;
+    padding: 0.75rem 1rem;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    border-radius: 4px;
+}
+
+.contact-name-txt {
+  resize: none;
+  min-width: 0px;
+  width: 100%;
+  font-weight: normal;
+  -webkit-appearance: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(36, 30, 18);
+  font-size: 1rem !important;
+  background: rgb(245, 244, 242);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(229, 227, 221);
+  border-image: initial;
+  outline: none;
+  padding: 0.75rem 1rem;
+  transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  border-radius: 4px;
+}
+
+.contact-name-ls {
+  align-items: flex-start;
+  align-content: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding-top: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0rem;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.contact-name-ls-2 {
+  align-items: flex-start;
+    align-content: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.contact-div-1 {
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(229, 227, 221);
+    border-bottom: 1px solid rgb(229, 227, 221);
+    border-left: 1px solid rgb(229, 227, 221);
+    border-right: 1px solid rgb(229, 227, 221);
+    border-radius: 4px;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 32rem;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.contact-div-2 {
+    box-sizing: border-box;
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
