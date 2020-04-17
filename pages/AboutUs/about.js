@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
 			    About Us
-                Humigrati chemical company was incorporated on February 13, 1997.
+        Humigrati chemical company was incorporated on February 13, 1997.
         Since incorporation, the company has been extensively involved in the oil service projects specifically
          in the areas of effluent water monitoring, crude oil/crude characterization analysis, bottle tests for selection 
          of effective demulsifiers, water clarifier, paraffin inhibitor, wax dissolving chemicals, microbiocides 
