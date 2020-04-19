@@ -3,7 +3,7 @@ import Clients from "./clients"
 
 function index() {
     return (
-        <Layout title="Clients">
+        <Layout title={"Contact Us | Humigrati Chemical Company Limited"}>
             <Clients/>
         </Layout>
     )

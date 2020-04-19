@@ -1,8 +1,10 @@
+import Layout from "../../components/layout"
+
 function Clients() {
     return (
-        <div>
+        <Layout title={"Clients | Humigrati Chemical Company Limited"}>
             Welcome to Clients
-        </div>
+        </Layout>
     )
 }
 

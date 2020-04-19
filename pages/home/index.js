@@ -361,7 +361,7 @@ import ContactForm from "../../components/contactform"
                <div className="close" onClick={handleForm} >
                     <i className="ion-md-close"></i>
             </div>
-            <div className="contact-div-1">
+            <div className="contact-div-1 top-margin">
                 <div className="contact-div-2">
                     <form className="contact-fm" action="https://formspree.io/xknvalaj" method="POST">
                         <div className="contact-name">

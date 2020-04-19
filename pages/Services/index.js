@@ -1,8 +1,12 @@
+import Layout from "../../components/layout"
+
+
 function Services() {
     return (
-        <div>
+        <Layout title={"Services | Humigrati Chemical Company Limited"}>
             Welcome to Services
-        </div>
+        </Layout>            
+        
     )
 }
 
