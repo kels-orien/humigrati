@@ -4,7 +4,7 @@ import About from "./about"
 
 function AboutUs() {
     return (
-        <Layout title="About Us">
+        <Layout title={"About Us | Humigrati Chemical Company Limited"}>
             <About/>
         </Layout>
     )

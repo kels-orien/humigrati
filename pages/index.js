@@ -6,8 +6,7 @@ function HomePage() {
             <div className="page">
                 <Layout title={"Homepage | Humigrati Chemical Company Limited"}>
                  <Home/>
-                </Layout>
-            
+                </Layout>   
         </div>   
     )
 }

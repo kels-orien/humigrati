@@ -1,5 +1,5 @@
 import Head from '../node_modules/next/head'
-import Link from '../node_modules/next/link'
+import Link from 'next/link';
 import Style from "../css/index.scss"
 
 
@@ -32,14 +32,16 @@ for many years with adaptable solutions for ever changing conditions and regulat
             <header className ="header">
                 
                 <div className="header__container">
-                    <div className="header__container__in"><a href="#" className="header__container__in__-1">HUMIGRATI</a></div>
+                    <div className="header__container__in"><Link href="/"><a className="header__container__in__-1">HUMIGRATI</a></Link></div>
                     <div className="header__ul">
                          <ul className="header__menu-box" >
-                            <li className="header__menu-box__in active"><a href="#">Home</a></li>   
-                            <li className="header__menu-box__in"><a href="#">Services</a></li>
-                            <li className="header__menu-box__in"><a href="#">About Us</a></li>
-                            <li className="header__menu-box__in"><a href="#">Clients</a></li>               
-                            <li className="header__menu-box__in"><a href="#">Contact Us</a></li>
+                            <li className="header__menu-box__in active"><Link href="/"><a>Home</a></Link></li>   
+                            <li className="header__menu-box__in"><Link href="/services"><a>Services</a></Link></li>
+                            <li className="header__menu-box__in"><Link href="/aboutus"><a>About Us</a></Link></li>
+                            <li className="header__menu-box__in"><Link href="/clients"><a>Clients</a></Link></li>               
+                            <li className="header__menu-box__in"><Link href="/contactus"><a>Contact Us </a></Link></li> 
+          
+       
                          </ul>       
                 </div>
                 </div> 
@@ -48,10 +50,10 @@ for many years with adaptable solutions for ever changing conditions and regulat
                 <div className="topnav">
                     <div><a href="#" className="active-mb">HUMIGRATI</a></div>
                     <div id="myLinks">
-                        <a className = "nav-mb-font" href="#services">Services</a>
-                        <a className = "nav-mb-font" href="#about">About Us</a>
-                        <a className = "nav-mb-font" href="#clients">Clients</a>
-                        <a className = "nav-mb-font" href="#contactus">Contact Us</a>
+                    <Link href="/services"><a className = "nav-mb-font">Services</a></Link>
+                    <Link href="/aboutus"><a className = "nav-mb-font">About Us</a></Link>
+                    <Link href="/clients"><a className = "nav-mb-font">Clients</a></Link>
+                    <Link href="/contactus"><a className = "nav-mb-font">Contact Us</a></Link>
                 </div>
                 <a  href="" className="icon" onClick={handleClick}>
                 
@@ -72,9 +74,9 @@ for many years with adaptable solutions for ever changing conditions and regulat
             <div className="col-footer">
                 <div><h2>Services</h2> </div>
                 <ul className="footer-links">
-                    <li><span><i className="bottom-icon ion-md-arrow-dropright"/></span><a href="#">Production Chemicals</a></li>
-                    <li><i className="bottom-icon ion-md-arrow-dropright"/><a href="#">Drilling Chemicals</a></li>
-                    <li><i className="bottom-icon ion-md-arrow-dropright"/><a href="#">Crude Oil Analysis</a></li>
+                    <li><span><i className="bottom-icon ion-md-arrow-dropright"/></span><Link href="/services"><a href="#">Production Chemicals</a></Link></li>
+                    <li><i className="bottom-icon ion-md-arrow-dropright"/><Link href="/services"><a>Drilling Chemicals</a></Link></li>
+                    <li><i className="bottom-icon ion-md-arrow-dropright"/><Link href="/services"><a>Crude Oil Analysis</a></Link></li>
                 </ul>
 
             </div>

@@ -1,12 +1,12 @@
 import Layout from "../../components/layout"
-import Clients from "./clients"
+import Client from "./client"
 
-function index() {
+function Clients() {
     return (
-        <Layout title={"Contact Us | Humigrati Chemical Company Limited"}>
-            <Clients/>
+        <Layout title={"Clients | Humigrati Chemical Company Limited"}>
+            <Client/>
         </Layout>
     )
 }
 
-export default index
+export default Clients
