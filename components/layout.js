@@ -35,14 +35,12 @@ for many years with adaptable solutions for ever changing conditions and regulat
                     <div className="header__container__in"><Link href="/"><a className="header__container__in__-1">HUMIGRATI</a></Link></div>
                     <div className="header__ul">
                          <ul className="header__menu-box" >
-                            <li className="header__menu-box__in active"><Link href="/"><a>Home</a></Link></li>   
-                            <li className="header__menu-box__in"><Link href="/services"><a>Services</a></Link></li>
-                            <li className="header__menu-box__in"><Link href="/aboutus"><a>About Us</a></Link></li>
-                            <li className="header__menu-box__in"><Link href="/clients"><a>Clients</a></Link></li>               
-                            <li className="header__menu-box__in"><Link href="/contactus"><a>Contact Us </a></Link></li> 
-          
-       
-                         </ul>       
+                            <Link href="/"><li className="header__menu-box__in active"><a>Home</a></li></Link>   
+                            <Link href="/services"><li className="header__menu-box__in"><a>Services</a></li></Link>
+                            <Link href="/aboutus"><li className="header__menu-box__in"><a>About Us</a></li></Link>
+                            <Link href="/clients"><li className="header__menu-box__in"><a>Clients</a></li></Link>               
+                            <Link href="/contactus"><li className="header__menu-box__in"><a>Contact Us</a></li></Link> 
+                        </ul>       
                 </div>
                 </div> 
             </header>
