@@ -39,7 +39,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
                             <Link href="/services"><li className="header__menu-box__in"><a>Services</a></li></Link>
                             <Link href="/aboutus"><li className="header__menu-box__in"><a>About Us</a></li></Link>
                             <Link href="/clients"><li className="header__menu-box__in"><a>Clients</a></li></Link>               
-                            <Link href="/contactus"><li className="header__menu-box__in"><a>Contact Us</a></li></Link> 
+                            <Link prefetch href="/contactus"><li className="header__menu-box__in"><a>Contact Us</a></li></Link> 
                         </ul>       
                 </div>
                 </div> 
@@ -51,7 +51,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
                     <Link href="/services"><a className = "nav-mb-font">Services</a></Link>
                     <Link href="/aboutus"><a className = "nav-mb-font">About Us</a></Link>
                     <Link href="/clients"><a className = "nav-mb-font">Clients</a></Link>
-                    <Link href="/contactus"><a className = "nav-mb-font">Contact Us</a></Link>
+                    <Link  prefetch href="/contactus"><a className = "nav-mb-font">Contact Us</a></Link>
                 </div>
                 <a  href="" className="icon" onClick={handleClick}>
                 
