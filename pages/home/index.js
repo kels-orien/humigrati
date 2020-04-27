@@ -25,12 +25,11 @@ import ContactForm from "../../components/contactform"
                     <section className="description-wrapper" aria-label="Humigrati has been extensively involved in  oil service projects specifically in the areas of effluent water monitoring,
                              crude oil and crude characterization analysis, bottle tests">
                         <div className="col-xs-12">
-                            <h1 className="title">Optimising Oil Operations</h1>
+                            <h1 className="title">Improving Oil Operations</h1>
                             <div className="oil-operations"><p className="title-paragraph">
-                            Humigrati has been extensively involved in  oil service projects specifically in the areas of effluent water monitoring,
-                             crude oil and crude characterization analysis, bottle tests for selection of effective demulsifiers, water clarifier, paraffin inhibitor, 
-                             wax dissolving chemicals, microbiocides and other oil field chemicals. The company through research has developed
-                              and manufactured effective chemicals for use in the oil industry for over twenty five years and have experienced field application engineers.
+                                As more oil is drilled new and challenging conditions arise requiring for more advanced
+                                chemical solutions. Our products hellp our customers obtain more efficient operations, 
+                                increased flow assurance, process cost benefits and improved environmental profiling.
                             </p></div>
                         <div className="btn-div">
                             <button type="button" onClick={handleForm} className ="btn">Contact Us</button>
