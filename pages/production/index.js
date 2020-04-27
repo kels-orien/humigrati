@@ -8,9 +8,7 @@ function Production() {
             
             </div>
         </Layout>
-
-        
     )
 }
 
-export default Analysis
+export default Production
