@@ -1,7 +1,11 @@
 import Layout from "../../components/layout";
 
 
+<<<<<<< HEAD:pages/contact/index.js
 function Contact() {
+=======
+function Contactus() {
+>>>>>>> bdf93401f820512652a80fa61c27bc61243c03ec:pages/ContactUs/index.js
     return (
         <Layout title={"Contact Us | Humigrati Chemical Company Limited"}>
             <div className="bg-white top-align">
@@ -98,4 +102,8 @@ function Contact() {
     )
 }
 
+<<<<<<< HEAD:pages/contact/index.js
 export default Contact
+=======
+export default Contactus
+>>>>>>> bdf93401f820512652a80fa61c27bc61243c03ec:pages/ContactUs/index.js
