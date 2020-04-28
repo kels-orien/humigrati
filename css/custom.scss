@@ -958,4 +958,18 @@ footer h2 {
 .use-margin {
   margin-top: 7rem;
   padding-top: 7rem;
+
+  @media (max-width: 768px)
+  {
+    margin-top:2rem;
+ }
+}
+
+.about-services {
+  font-size: 1.1rem;
+  font-weight:600;
+}
+
+.small-margin-top {
+  margin-top:2rem;
 }

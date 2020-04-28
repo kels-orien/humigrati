@@ -1,7 +1,7 @@
 import Layout from "../../components/layout";
 
 
-function ContactUs() {
+function Contact() {
     return (
         <Layout title={"Contact Us | Humigrati Chemical Company Limited"}>
             <div className="bg-white top-align">
@@ -98,4 +98,4 @@ function ContactUs() {
     )
 }
 
-export default ContactUs
+export default Contact
