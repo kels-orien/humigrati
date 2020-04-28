@@ -20,7 +20,7 @@ import ContactForm from "../../components/contactform"
 
     return (
         <React.Fragment>
-        <section className="banner" aria-label="Optimising Oil Operations"  >
+        <section className="banner" aria-label="Optimising Oil Operations">
 			    <div className="container">
                     <section className="description-wrapper" aria-label="Humigrati has been extensively involved in  oil service projects specifically in the areas of effluent water monitoring,
                              crude oil and crude characterization analysis, bottle tests">
@@ -92,7 +92,7 @@ import ContactForm from "../../components/contactform"
             <div className="col-2">
                 <section className="image-block">
                     <header><h2 className ="t2">Products and Applications</h2></header>
-                        <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
+                        <p className="subtitle">We have fantastic tailor made production and drilling chemicals that provide necessary chemical solutions</p>
                         <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt=""/></a>
                         <a href="#" className="button">More</a>
                 </section>
@@ -100,16 +100,17 @@ import ContactForm from "../../components/contactform"
          <div className="col-2">
             <section className="image-block">
                 <header><h2 className ="t2">Crude Oil Analysis</h2></header>
-                <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-                <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt=""/></a>
+                <p className="subtitle">  We have 15 years experience in this area it entails just a few basic parameters like specific gravity</p>
+                <a href="#"><img src="/assets/images/analysis2.jpg" className="responsive-img" alt=""/></a>
                 <a href="#" className="button">More</a>
             </section>
          </div>
          <div className="col-2">
             <section className="image-block">
                 <header><h2 className="t2">Effluent Water Monitoring</h2></header>
-                <p className="subtitle">In posuere eleifend odio. Quisque semper augue mattis maecenas ligula.</p>
-                <a href="#"><img src="/assets/images/refinery.jpg"  className="responsive-img" alt=""/></a>
+                <p className="subtitle">We are experienced in collecting, Recording, and Sampling for waste water from handling vessels
+</p>
+                <a href="#"><img src="/assets/images/effluent-water1.jpg"  className="responsive-img" alt=""/></a>
                 <a href="#" className="button">More</a>
             </section>
          </div>
