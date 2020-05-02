@@ -31,6 +31,7 @@ function Home() {
                     <div className="products">
                         <div className="products__name">
                             <ul className="chemical-list">
+                                <li><a href="#" className="chemical-list-button">Biocides</a></li>
                                 <li><a href="#" className="chemical-list-button">Corrosion Inhibitors</a></li>
                                 <li><a href="#" className="chemical-list-button">Defoamers</a></li>
                                 <li><a href="#" className="chemical-list-button">Degreasers</a></li>
@@ -76,7 +77,7 @@ function Home() {
                         <section className="image-block">
                             <header><h2 className="t2">Crude Oil Analysis</h2></header>
                             <p className="subtitle">  We have 15 years experience in this area it entails just a few basic parameters like specific gravity</p>
-                            <a href="#"><img src="/assets/images/analysis.jpg" className="responsive-img" alt="" /></a>
+                            <img src="/assets/images/analysis.jpg" className="responsive-img" alt="" />
                             <Link href="/analysis"><a className="button">More</a></Link>
                         </section>
                     </div>
