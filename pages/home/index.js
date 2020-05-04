@@ -1,6 +1,8 @@
-import ContactForm from "../../components/contactform"
-import Link from 'next/link';
 
+
+import Link from 'next/link';
+import ContactForm from "../../components/contactform"
+ 
 
 function Home() {
     return (
@@ -52,9 +54,9 @@ function Home() {
                         <div className="products__info">
                             <p>Across the globe we recognise the difficulties in oil processing, from extraction through to refinery. At Home
                             our technology platforms are at the forefront of innovation working to provide solutions from upstream through to downstream processes. Our “Functions” pages categorise our additives by effect.
-                            Take a look through the pages to discover new and innovative solutions for operational challenges.
                         </p>
-                            <div ><Link href="/functions"><a className="view-text">View all<i className="sy ion-md-arrow-round-forward" /></a></Link></div>
+                            <div>
+                                <Link href="/functions"><a className="view-text">View all<i className="sy ion-md-arrow-round-forward" /></a></Link></div>
                         </div>
                     </div>
                 </section>

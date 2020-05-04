@@ -81,7 +81,7 @@ function Functions() {
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/demulsifier.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -102,7 +102,7 @@ function Functions() {
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/dispersant.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -124,11 +124,11 @@ function Functions() {
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/emulsifier.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
-                                        <header className="card-title">Emulsifier</header>
+                                        <header className="card-title">Emulsifiers</header>
                                     </div>
                                     <section className="card-p">
                                         <div>
@@ -145,7 +145,7 @@ function Functions() {
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/microbiocides.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -167,7 +167,7 @@ function Functions() {
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/paraffin-inhibitor.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -188,7 +188,7 @@ T                                       product can also be use as a solvent to 
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/paraffin-solvent.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -210,7 +210,7 @@ T                                       product can also be use as a solvent to 
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/scale-inhibitor.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -231,7 +231,7 @@ T                                       product can also be use as a solvent to 
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/tanks.jpg" className="card-img" alt="tanks treated with sludge breakers" />
                                     </div>
 
                                     <div className="card-caption">
@@ -252,7 +252,7 @@ T                                       product can also be use as a solvent to 
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/water-clarifier.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -273,7 +273,7 @@ T                                       product can also be use as a solvent to 
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/wetting-agent.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
@@ -284,28 +284,6 @@ T                                       product can also be use as a solvent to 
                                         <p>
                                         Our wetting agents, also called surfactant, chemical substance increases the spreading and penetrating properties of a liquid
  by lowering its surface tension—that is, the tendency of its molecules to adhere to each other. 
-                                        </p>
-                                        <Link href="/analysis"><a className="button">More</a></Link>
-                                        </div>
-                                  
-                                    </section>
-                            
-                                </div>
-                            </li>
-                            <li className="img-space">
-                                <div className="card">
-                                    <div className="card-img">
-                                        <img src="/assets/images/degreaser-foamer.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
-                                    </div>
-
-                                    <div className="card-caption">
-                                        <header className="card-title">Paraffin Solvents</header>
-                                    </div>
-                                    <section className="card-p">
-                                        <div>
-                                        <p>
-                                        Our paraffin solvents are used when a well becomes plugged by paraffin forming in the tubing or on the sucker rods, or when the flow lines are plugged by paraffin,
- it is necessary to clean out the lines before starting a prevention program with dispersants or crystal modifiers. 
                                         </p>
                                         <Link href="/analysis"><a className="button">More</a></Link>
                                         </div>
