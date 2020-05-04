@@ -167,7 +167,7 @@ function Functions() {
                             <li className="img-space">
                                 <div className="card">
                                     <div className="card-img">
-                                        <img src="/assets/images/paraffin-inhibitor.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
+                                        <img src="/assets/images/paraffin.jpg" className="card-img" alt="foamer Photo by Rodion Kutsaev on Unsplash" />
                                     </div>
 
                                     <div className="card-caption">
