@@ -2,7 +2,7 @@ import Layout from "../../components/layout"
 import Link from 'next/link'
 
 
-function Services() {
+function Service() {
   return (
     <Layout title={"Services | Humigrati Chemical Company Limited"}>
 
@@ -41,4 +41,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Service

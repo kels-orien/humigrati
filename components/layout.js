@@ -36,9 +36,9 @@ for many years with adaptable solutions for ever changing conditions and regulat
                         <div className="header__ul">
                             <ul className="header__menu-box" >
                                 <Link href="/"><li className="header__menu-box__in active"><a>Home</a></li></Link>
-                                <Link href="/services"><li className="header__menu-box__in"><a>Services</a></li></Link>
+                                <Link href="/service"><li className="header__menu-box__in"><a>Services</a></li></Link>
                                 <Link href="/about"><li className="header__menu-box__in"><a>About Us</a></li></Link>
-                                <Link href="/clients"><li className="header__menu-box__in"><a>Clients</a></li></Link>
+                                <Link href="/client"><li className="header__menu-box__in"><a>Clients</a></li></Link>
 
                                 <Link href="/contact"><li className="header__menu-box__in"><a>Contact Us</a></li></Link>
 
