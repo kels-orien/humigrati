@@ -15,13 +15,13 @@ const Layout = props => {
     }
 
     return (
-        <main >
+        <main>
             <Head>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="description" content="At Humigrati, we have been providing chemicals to the oilfield production market 
-for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
- includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "></meta>
+                for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
+                includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "></meta>
                 <title>{props.title}</title>
                 <style dangerouslySetInnerHTML={{ __html: Style }} />
             </Head>
@@ -39,9 +39,7 @@ for many years with adaptable solutions for ever changing conditions and regulat
                                 <Link href="/service"><li className="header__menu-box__in"><a>Services</a></li></Link>
                                 <Link href="/about"><li className="header__menu-box__in"><a>About Us</a></li></Link>
                                 <Link href="/client"><li className="header__menu-box__in"><a>Clients</a></li></Link>
-
                                 <Link href="/contact"><li className="header__menu-box__in"><a>Contact Us</a></li></Link>
-
                             </ul>
                         </div>
                     </div>
@@ -50,11 +48,10 @@ for many years with adaptable solutions for ever changing conditions and regulat
                     <div className="topnav">
                         <div><Link href="/"><a href="#" className="active-mb">HUMIGRATI</a></Link></div>
                         <div id="myLinks">
-                            <Link href="/services"><a className="nav-mb-font">Services</a></Link>
+                            <Link href="/service"><a className="nav-mb-font">Services</a></Link>
                             <Link href="/about"><a className="nav-mb-font">About Us</a></Link>
-                            <Link href="/clients"><a className="nav-mb-font">Clients</a></Link>
+                            <Link href="/client"><a className="nav-mb-font">Clients</a></Link>
                             <Link href="/contact"><a className="nav-mb-font">Contact Us</a></Link>
-
                         </div>
                         <a href="" className="icon" onClick={handleClick}>
 

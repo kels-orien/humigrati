@@ -8,12 +8,12 @@ function Functions() {
                 <div className="text-center">  
                     <h className="section-title">Functions</h>
                     <p className="section-paragraph">
-                        
                         In the oil and gas industries, there's only one way to keep your edge
                         - innovation. Navigate through our functions to find a novel solution to your oil and gas challenges.
                     </p>
                 </div>
                 <section className="gallery">
+                 
             <div className="our-header">
                 
                     <header><h2 className="section-title">Our functions</h2></header>
@@ -256,7 +256,7 @@ T                                       product can also be use as a solvent to 
                                     </div>
 
                                     <div className="card-caption">
-                                        <header className="card-title">Water clarifiers</header>
+                                        <header className="card-title">Water Clarifiers</header>
                                     </div>
                                     <section className="card-p">
                                         <div>
