@@ -5,6 +5,9 @@ function About() {
     return (
         <Layout>
             <div className=" bg-white  use-margin">
+            <div className="text-center">  
+                    <h className="section-title">About Us</h>
+                </div>
                 <div className="col-6">
                     <section className="about-section about-block">
                         <div className="col-6">

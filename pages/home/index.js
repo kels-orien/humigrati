@@ -78,23 +78,17 @@ function Home() {
                     <div className="col-2">
                         <section className="image-block">
                             <header><h2 className="t2">Crude Oil Analysis</h2></header>
-                            <p className="subtitle">  We have 15 years experience in this area it entails just a few basic parameters like specific gravity</p>
+                            <p className="subtitle">We have 15 years experience in this area it entails just testing specific parameters  from crude oil,</p>
                             <img src="/assets/images/analysis.jpg" className="responsive-img" alt="" />
-                            <Link href="/analysis"><a className="button">More</a></Link>
                         </section>
                     </div>
                     <div className="col-2">
                         <section className="image-block">
                             <header><h2 className="t2">Effluent Water Monitoring</h2></header>
-                            <p className="subtitle">We are experienced in collecting, Recording, and Sampling for waste water from handling vessels
-</p>
+                            <p className="subtitle">We are experienced in collecting, Recording, and Sampling for waste water from handling vessels</p>
                             <a href="#"><img src="/assets/images/effluent-water1.jpg" className="responsive-img" alt="" /></a>
-                            <Link href="/effluent"><a className="button">More</a></Link>
                         </section>
                     </div>
-
-
-
                 </div>
 
 

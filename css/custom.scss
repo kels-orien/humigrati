@@ -984,3 +984,19 @@ footer h2 {
   color: #fff;
   background: $color-primary;
 }
+
+.client-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.faq {
+  margin-left:3rem;
+  margin-right:3rem;
+}
+
+.col-8 {
+  max-width: 60rem;
+  margin: 0 auto;
+}
