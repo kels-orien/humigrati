@@ -71,7 +71,7 @@ function Home() {
                         <section className="image-block">
                             <header><h2 className="t2">Products and Applications</h2></header>
                             <p className="subtitle">We have fantastic tailor made production and drilling chemicals that provide necessary chemical solutions</p>
-                            <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt="" /></a>
+                            <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt="Products and application" /></a>
                             <Link href="/production"><a className="button">More</a></Link>
                         </section>
                     </div>
@@ -79,14 +79,14 @@ function Home() {
                         <section className="image-block">
                             <header><h2 className="t2">Crude Oil Analysis</h2></header>
                             <p className="subtitle">We have 15 years experience in this area it entails just testing specific parameters  from crude oil,</p>
-                            <img src="/assets/images/analysis.jpg" className="responsive-img" alt="" />
+                            <img src="/assets/images/analysis.jpg" className="responsive-img" alt="Crude oil analysis" />
                         </section>
                     </div>
                     <div className="col-2">
                         <section className="image-block">
                             <header><h2 className="t2">Effluent Water Monitoring</h2></header>
                             <p className="subtitle">We are experienced in collecting, Recording, and Sampling for waste water from handling vessels</p>
-                            <a href="#"><img src="/assets/images/effluent-water1.jpg" className="responsive-img" alt="" /></a>
+                            <a href="#"><img src="/assets/images/effluent-water1.jpg" className="responsive-img" alt="Effluent water" /></a>
                         </section>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ function Home() {
                     </div>
                     <div className="col-6">
                         <section className="about-block">
-                            <img src="/assets/images/building.jpg" className="responsive-img" alt="" />
+                            <img src="/assets/images/building.jpg" className="responsive-img" alt="Office building" />
                         </section>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ function Home() {
                         <ul className="col-3">
                             <li className="img-space">
                                 <div className="project-image">
-                                    <img src="/assets/images/warehouse.jpg" className="responsive-img" alt="" />
+                                    <img src="/assets/images/warehouse.jpg" className="responsive-img" alt="warehouse" />
                                     <div className="portfolio-overlay">
                                         <div className="content">
 
@@ -147,7 +147,7 @@ function Home() {
                             </li>
                             <li className="img-space">
                                 <div className="project-image">
-                                    <img src="/assets/images/demulsifier-test-bottles.jpg" className="responsive-img" alt="Demulsifier Bottle Test" />
+                                    <img src="/assets/images/demulsifier-test-bottles.jpg" className="responsive-img" alt="Demulsifier bottle test" />
                                     <div className="portfolio-overlay">
                                         <div className="content">
 

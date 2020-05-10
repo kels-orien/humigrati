@@ -8,390 +8,349 @@ $assets-path: "../static" !default;
 @import "../node_modules/ionicons/dist/scss/ionicons.scss";
 @import "./variables.scss";
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 	outline: 0;
 	-webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-	body,input,textarea,select
-	{
-		font-family: 'Roboto Condensed', sans-serif;
-		font-weight: 300;
-		font-size: 11pt;
-		line-height: 1.75em;
+body,
+input,
+textarea,
+select {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+	font-size: 11pt;
+	line-height: 1.75em;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	background: url("/assets/images/bg.jpg");
+}
+
+button {
+	cursor: pointer;
+	-webkit-appearance: button;
+	border-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Change this to whatever font weight/color pairing is most suitable */
+strong,
+b {
+	font-weight: bold;
+	color: #000000;
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+sub {
+	position: relative;
+	top: 0.5em;
+	font-size: 0.8em;
+}
+
+sup {
+	position: relative;
+	top: -0.5em;
+	font-size: 0.8em;
+}
+
+hr {
+	border: 0;
+	border-top: solid 1px #ddd;
+}
+
+blockquote {
+	border-left: solid 0.5em #ddd;
+	padding: 1em 0 1em 2em;
+	font-style: italic;
+}
+
+p,
+ul,
+ol,
+dl,
+table {
+	margin-bottom: 1em;
+}
+
+header h2 {
+	font-size: 2.5em;
+}
+
+header .byline {
+	display: block;
+	margin: 0.5em 0 0 0;
+	padding: 0 0 0.5em 0;
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+footer {
+	margin-top: 1em;
+}
+
+br.clear {
+	clear: both;
+}
+
+/* Sections/Articles */
+
+/* Images */
+
+.image {
+	display: inline-block;
+}
+
+.image img {
+	display: block;
+	width: 100%;
+}
+
+.image.featured {
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+.image.full {
+	display: block;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.image.left {
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.image.centered {
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+.image.centered img {
+	margin: 0 auto;
+	width: auto;
+}
+
+/* Lists */
+
+ul.default {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.default li {
+	display: block;
+	padding: 2em 0em 1.25em 0em;
+	border-top: 1px solid #303030;
+}
+
+ul.default li:first-child {
+	padding-top: 0em;
+	border-top: none;
+}
+
+ul.default a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+ul.default a:hover {
+	text-decoration: underline;
+}
+
+ul.style1 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.style1 li {
+	padding: 0.6em 0em;
+	border-top: 1px solid;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+ul.style1 li:first-child {
+	padding-top: 0;
+	border-top: 0;
+}
+
+ul.style1 img {
+}
+
+ul.style2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.style2 li {
+	padding: 1.9em 0em 1.6em 0em;
+	border-top: 1px solid;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+ul.style2 li:first-child {
+	padding-top: 0;
+	border-top: 0;
+}
+
+ul.style2 img {
+	float: left;
+	padding-right: 1em;
+}
+
+ul.style5 {
+	overflow: hidden;
+	margin: 0em 0em 1em 0em;
+	padding: 0em;
+	list-style: none;
+}
+
+ul.style5 li {
+	float: left;
+	padding: 0.25em 0.25em;
+	line-height: 0;
+}
+
+ul.style5 a {
+}
+
+/* Buttons */
+
+.button {
+	position: relative;
+	display: inline-block;
+	margin-top: 0.5em;
+	padding: 0.5em 1.5em;
+	background: #e95d3c;
+	border-radius: 6px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	color: #fff;
+	-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+	cursor: pointer;
+
+	@media (max-width: 768px) {
+		width: 100%;
+		text-align: center;
 	}
+}
 
-	ul {
-		list-style: none;
-	}
+.button:hover {
+	background: #de3d27;
+	color: #fff !important;
+}
 
-	body {
-		background:url("/assets/images/bg.jpg");
-	}
+#header {
+	position: relative;
+	background: #fff;
+}
 
-	button {
-		cursor: pointer;
-		-webkit-appearance: button;
-		border-style: none;
-	}
-
-	h1,h2,h3,h4,h5,h6
-	{
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		font-weight: 300;
-	}
-	
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
-		{
-			color: inherit;
-			text-decoration: none;
-		}
-		
-	/* Change this to whatever font weight/color pairing is most suitable */
-	strong, b
-	{
-		font-weight: bold;
-		color: #000000;
-	}
-	
-	em, i
-	{
-		font-style: italic;
-	}
-
-	
-	sub
-	{
-		position: relative;
-		top: 0.5em;
-		font-size: 0.8em;
-	}
-	
-	sup
-	{
-		position: relative;
-		top: -0.5em;
-		font-size: 0.8em;
-	}
-	
-	hr
-	{
-		border: 0;
-		border-top: solid 1px #ddd;
-	}
-	
-	blockquote
-	{
-		border-left: solid 0.5em #ddd;
-		padding: 1em 0 1em 2em;
-		font-style: italic;
-	}
-	
-	p, ul, ol, dl, table
-	{
-		margin-bottom: 1em;
-	}
-
-	
-	
-		header h2
-		{
-			font-size: 2.5em;
-		}
-
-		header .byline
-		{
-			display: block;
-			margin: 0.5em 0 0 0;
-			padding: 0 0 0.5em 0;
-			text-transform: uppercase;
-			font-size: 1.4em;
-		}
-		
-	footer
-	{
-		margin-top: 1em;
-	}
-
-	br.clear
-	{
-		clear: both;
-	}
-
-	/* Sections/Articles */
-	
-		
-	/* Images */
-
-		.image
-		{
-			display: inline-block;
-		}
-		
-			.image img
-			{
-				display: block;
-				width: 100%;
-			}
-
-			.image.featured
-			{
-				display: block;
-				width: 100%;
-				margin: 0 0 2em 0;
-			}
-			
-			.image.full
-			{
-				display: block;
-				width: 100%;
-				margin-bottom: 2em;
-			}
-			
-			.image.left
-			{
-				float: left;
-				margin: 0 2em 2em 0;
-			}
-			
-			.image.centered
-			{
-				display: block;
-				margin: 0 0 2em 0;
-			}
-
-				.image.centered img
-				{
-					margin: 0 auto;
-					width: auto;
-				}
-
-	/* Lists */
-
-		ul.default
-		{
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-		
-			ul.default li
-			{
-				display: block;
-				padding: 2em 0em 1.25em 0em;
-				border-top: 1px solid #303030;
-			}
-			
-			ul.default li:first-child
-			{
-				padding-top: 0em;
-				border-top: none;
-			}
-			
-			ul.default a
-			{
-				text-decoration: none;
-				color: rgba(255,255,255,.5);
-			}
-			
-			ul.default a:hover
-			{
-				text-decoration: underline;
-			}
-
-		ul.style1
-		{
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-		
-			ul.style1 li
-			{
-				padding: 0.60em 0em;
-				border-top: 1px solid;
-				border-color: rgba(0,0,0,.1);
-			}
-			
-			ul.style1 li:first-child
-			{
-				padding-top: 0;
-				border-top: 0;
-			}
-			
-			ul.style1 img
-			{
-			}
-
-
-		ul.style2
-		{
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-
-			ul.style2 li
-			{
-				padding: 1.90em 0em 1.60em 0em;
-				border-top: 1px solid;
-				border-color: rgba(0,0,0,.1);
-			}
-			
-			ul.style2 li:first-child
-			{
-				padding-top: 0;
-				border-top: 0;
-			}
-
-			ul.style2 img
-			{
-				float: left;
-				padding-right: 1em;
-			}
-			
-		ul.style5
-		{
-			overflow: hidden;
-			margin: 0em 0em 1em 0em;
-			padding: 0em;
-			list-style: none;
-		}
-		
-			ul.style5 li
-			{
-				float: left;
-				padding: 0.25em 0.25em;
-				line-height: 0;
-			}
-			
-			ul.style5 a
-			{
-			}
-
-			
-
-	/* Buttons */
-		
-		.button
-		{
-			position: relative;
-			display: inline-block;
-			margin-top: 0.5em;
-			padding: 0.50em 1.5em;
-			background: #e95d3c;
-			border-radius: 6px;
-			text-decoration: none;
-			text-transform: uppercase;
-			font-size: 1.1em;
-			color: #FFF;
-			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			cursor: pointer;
-
-			@media (max-width: 768px) {
-				width: 100%;
-				text-align: center;
-		
-		 }
-		}
-
-			.button:hover
-			{
-				background: #de3d27;
-				color: #FFF !important;
-			}
-
-
-
-	#header
-	{
-		position: relative;
-		background: #FFF;
-	}
-
-		#header .container
-		{
-			position: relative;
-			padding: 4em 0em;
-		}
+#header .container {
+	position: relative;
+	padding: 4em 0em;
+}
 
 /*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
 
-	#logo
-	{
-		position: absolute;
-		left: 0em;
-		top: 3em;
-	}
-	
-		#logo h1
-		{
-		}
-	
-		#logo a
-		{
-			display: block;
-			text-decoration: none;
-			font-size: 2.8em;
-			font-weight: 600;
-		}
+#logo {
+	position: absolute;
+	left: 0em;
+	top: 3em;
+}
+
+#logo h1 {
+}
+
+#logo a {
+	display: block;
+	text-decoration: none;
+	font-size: 2.8em;
+	font-weight: 600;
+}
 
 /*********************************************************************************/
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-		position: absolute;
-		right: 0em;
-		top: 2.2em;
-	}
+#nav {
+	position: absolute;
+	right: 0em;
+	top: 2.2em;
+}
 
-		#nav > ul > li
-		{
-			float: left;
-		}
-		
-			#nav > ul > li:last-child
-			{
-				padding-right: 0;
-			}
+#nav > ul > li {
+	float: left;
+}
 
-			#nav > ul > li > a,
-			#nav > ul > li > span
-			{
-				display: block;
-				margin-left: 0.7em;
-				padding: 0.80em 1.2em;
-				letter-spacing: 0.06em;
-				text-decoration: none;
-				text-transform: uppercase;
-				font-size: 1.1em;
-				outline: 0;
-				color: #333;
-			}
+#nav > ul > li:last-child {
+	padding-right: 0;
+}
 
-			#nav li.active a
-			{
-				background: #e95d3c;
-				border-radius: 5px;
-				color: #FFF;
-			}
+#nav > ul > li > a,
+#nav > ul > li > span {
+	display: block;
+	margin-left: 0.7em;
+	padding: 0.8em 1.2em;
+	letter-spacing: 0.06em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	outline: 0;
+	color: #333;
+}
 
-			#nav > ul > li > ul
-			{
-				display: none;
-			}
-	
+#nav li.active a {
+	background: #e95d3c;
+	border-radius: 5px;
+	color: #fff;
+}
+
+#nav > ul > li > ul {
+	display: none;
+}
+
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -400,139 +359,121 @@ $assets-path: "../static" !default;
 /* Main                                                                          */
 /*********************************************************************************/
 
-	#page
-	{
-		position: relative;
-		background: #fff;
-	}
+#page {
+	position: relative;
+	background: #fff;
+}
 
-	#main
-	{
-		border-top: 1px solid;
-		border-color: rgba(0,0,0,.2);
-	}
-	
-	.sidebar header h2
-	{
-		font-size: 1.6em;
-	}
+#main {
+	border-top: 1px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+.sidebar header h2 {
+	font-size: 1.6em;
+}
 
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
-	#footer
-	{
-		position: relative;
-		color: rgba(255,255,255,.4);
-	}
-	
-	#footer .container
-	{
-	}
 
-	#footer h2
-	{
-		padding-bottom: 1.5em;
-		font-size: 1.6em;
-		color: #FFF;
-	}
+#footer {
+	position: relative;
+	color: rgba(255, 255, 255, 0.4);
+}
 
-	#footer strong
-	{
-		color: rgba(255,255,255,.7);
-	}
-	
+#footer .container {
+}
+
+#footer h2 {
+	padding-bottom: 1.5em;
+	font-size: 1.6em;
+	color: #fff;
+}
+
+#footer strong {
+	color: rgba(255, 255, 255, 0.7);
+}
+
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
-	
-	#copyright
-	{
-		position: relative;
-		padding: 3em 0em;
-		border-top: 1px solid #303030;
-		letter-spacing: 1px;
-		text-align: center;
-		color: rgba(255,255,255,.4);
-	}
-	
-	#copyright .container
-	{
-	}
-	
-	#copyright a
-	{
-		text-decoration: none;
-		color: rgba(255,255,255,.4) !important;
-	}
+
+#copyright {
+	position: relative;
+	padding: 3em 0em;
+	border-top: 1px solid #303030;
+	letter-spacing: 1px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+#copyright .container {
+}
+
+#copyright a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.4) !important;
+}
 
 /*********************************************************************************/
 /* Marketing                                                                     */
 /*********************************************************************************/
-	
-	#marketing
-	{
-		position: relative;
-	}
-	
-	#marketing header h2
-	{
-		font-size: 1.6em;
-	}
-	
+
+#marketing {
+	position: relative;
+}
+
+#marketing header h2 {
+	font-size: 1.6em;
+}
+
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
-	
-	#featured
-	{
-		position: relative;
-	}
-	
-	#featured .divider
-	{
-		border-bottom: 1px solid #303030;
-	}
-	
-	#featured .box
-	{
-		background: #FFF;
-		padding: 1.4em;
-		font-size: 0.95em;
-	}
-	
-	blockquote
-	{
-		margin: 0;
-		padding: 0;
-		border: none;
-		font-style: normal;
-	}
-	
-	.balloon {
-		padding: 1.87em;
-		background: url(images/img08.jpg) repeat left top;
-		border-radius: 5px;
-		line-height: 180%;
-		font-size: 1.2em;
-		color: #333;
-	}
-	
-	.ballon-bgbtm {
-		height: 1.87em;
-	}
-	
-	.balloon strong
-	{
-		color: #333 !important;
-	}
 
-	a{
-		text-decoration: none;
-	}
+#featured {
+	position: relative;
+}
 
-	a:focus{
-		outline: 1px solid $color-secondary;   
-	}
+#featured .divider {
+	border-bottom: 1px solid #303030;
+}
 
+#featured .box {
+	background: #fff;
+	padding: 1.4em;
+	font-size: 0.95em;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+}
+
+.balloon {
+	padding: 1.87em;
+	background: url(images/img08.jpg) repeat left top;
+	border-radius: 5px;
+	line-height: 180%;
+	font-size: 1.2em;
+	color: #333;
+}
+
+.ballon-bgbtm {
+	height: 1.87em;
+}
+
+.balloon strong {
+	color: #333 !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: 1px solid $color-secondary;
+}

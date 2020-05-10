@@ -28,7 +28,7 @@ function contactform() {
             <button type="button" onClick={handleForm} className="btn">Contact Us</button>
         </div>
             <div id="form-overlay" >
-            <div className="close" onClick={handleForm} >
+            <div aria-label="close" className="close" onClick={handleForm} >
                 <i className="ion-md-close"></i>
             </div>
             <div className="contact-div-1 top-margin">
@@ -63,7 +63,7 @@ function contactform() {
                                 Message
              </label>
                             <div className="contact-name-fs">
-                                <textarea type="text" placeholder="Type message here..." className="contact-name-txt" id="msg" name="msg" rows="4" cols="50" required="required" />
+                                <textarea type="text" className="contact-name-txt" id="msg" name="msg" rows="4" cols="50" required="required" />
                             </div>
                             <div className="contact-name-ls">
                                 <div className="contact-name-ls-2">
@@ -72,7 +72,7 @@ function contactform() {
                         </div>
                         <div className="contact">
 
-                            <button className="contact-button" type="submit">Submit</button>
+                            <button aria-label="Submit" className="contact-button" type="submit">Submit</button>
                             <div className="contact-name-ls">
                                 <div className="contact-name-ls-2">
                                 </div>
