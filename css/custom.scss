@@ -233,6 +233,7 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
+  line-height: 2.08rem;
 }
 .title-paragraph {
   text-align: center;
@@ -409,6 +410,9 @@ footer h2 {
 
 .our-header {
   text-align: center;
+}
+
+.s-padding {
   padding: 2rem;
 }
 
@@ -999,4 +1003,8 @@ footer h2 {
 .col-8 {
   max-width: 60rem;
   margin: 0 auto;
+}
+
+.p-left {
+  padding-left: 1rem;
 }

@@ -5,7 +5,7 @@ function Clients() {
         <Layout title={"Clients | Humigrati Chemical Company Limited"}>
             <div className=" bg-white client-section use-margin">
                 <div>
-                <div className="text-center">  
+                <div className="text-center m-bottom">  
                     <h className="section-title">Our Clients</h>
                     <p className="section-paragraph">
                     We have in place, a prudent management board and technical team of seasoned managers, as well as consultants,

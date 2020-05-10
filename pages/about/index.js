@@ -5,7 +5,7 @@ function About() {
     return (
         <Layout>
             <div className=" bg-white  use-margin">
-            <div className="text-center">  
+            <div className="text-center m-bottom">  
                     <h className="section-title">About Us</h>
                 </div>
                 <div className="col-6">

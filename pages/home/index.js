@@ -26,7 +26,7 @@ function Home() {
             <article className="products-article">
                 <section className="our-products" aria-label="Our Products demulsifiers, corrosion inhibitors scale inhibitors oil spill dispersant degreasers paraffin inhibitors paraffin solvents water clarifiers Quat biocide, THPS">
                     <div className="our-header">
-                        <h2 className="section-title">Our Products</h2>
+                        <h2 className="section-title s-padding">Our Products</h2>
                         <p className="section-paragraph">Buy our tailor made chemicals solutions</p>
                     </div>
 
@@ -71,22 +71,24 @@ function Home() {
                         <section className="image-block">
                             <header><h2 className="t2">Products and Applications</h2></header>
                             <p className="subtitle">We have fantastic tailor made production and drilling chemicals that provide necessary chemical solutions</p>
-                            <a href="#"><img src="/assets/images/refinery.jpg" className="responsive-img" alt="Products and application" /></a>
-                            <Link href="/production"><a className="button">More</a></Link>
+                            <a href="service"><img src="/assets/images/refinery.jpg" className="responsive-img" alt="Products and application" /></a>
+                            <Link href="/service"><a className="view-text p-left" >Products and Applications<i className="sy ion-md-arrow-round-forward" /></a></Link>
                         </section>
                     </div>
                     <div className="col-2">
                         <section className="image-block">
                             <header><h2 className="t2">Crude Oil Analysis</h2></header>
                             <p className="subtitle">We have 15 years experience in this area it entails just testing specific parameters  from crude oil,</p>
-                            <img src="/assets/images/analysis.jpg" className="responsive-img" alt="Crude oil analysis" />
+                            <a href="service"><img src="/assets/images/analysis.jpg" className="responsive-img" alt="Crude oil analysis" /></a>
+                            <Link href="/service"><a className="view-text p-left">Crude Oil Analysis<i className="sy ion-md-arrow-round-forward" /></a></Link>
                         </section>
                     </div>
                     <div className="col-2">
                         <section className="image-block">
                             <header><h2 className="t2">Effluent Water Monitoring</h2></header>
                             <p className="subtitle">We are experienced in collecting, Recording, and Sampling for waste water from handling vessels</p>
-                            <a href="#"><img src="/assets/images/effluent-water1.jpg" className="responsive-img" alt="Effluent water" /></a>
+                            <a href="service"><img src="/assets/images/effluent-water1.jpg" className="responsive-img" alt="Effluent water" /></a>
+                            <Link href="/service"><a className="view-text p-left">Effluent Water Monitoring<i className="sy ion-md-arrow-round-forward" /></a></Link>
                         </section>
                     </div>
                 </div>
@@ -110,19 +112,19 @@ function Home() {
                             of effective demulsifiers, water clarifier, paraffin inhibitor, wax dissolving chemicals, microbiocides
                             and other oil field chemicals. The company through research has developed and manufactured effective chemicals for use in the oil industry from over twenty five years experience as field application engineers.
                         The company has been able to cut a niche in quality assurance/quality control (QA/QC) and timely delivery of projects to its clients.</p>
-                            <Link href="/about"><a className="button">More</a></Link>
+
                         </section>
                     </div>
                     <div className="col-6">
                         <section className="about-block">
-                            <img src="/assets/images/building.jpg" className="responsive-img" alt="Office building" />
+                        <a href="/about"><img src="/assets/images/building.jpg" className="responsive-img" alt="Office building" /></a>
                         </section>
                     </div>
                 </div>
             </section>
 
             <section className="gallery bg-white">
-                <div className="our-header">
+                <div className="our-header s-padding">
                     <header><h2 className="section-title">Our Gallery</h2></header>
 
                 </div>

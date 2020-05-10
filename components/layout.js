@@ -46,14 +46,14 @@ const Layout = props => {
                 </header>
                 <header className="header-mb">
                     <div className="topnav">
-                        <div><Link href="/"><a href="#" className="active-mb">HUMIGRATI</a></Link></div>
+                        <div><Link href="/"><a className="active-mb">HUMIGRATI</a></Link></div>
                         <div id="myLinks">
                             <Link href="/service"><a className="nav-mb-font">Services</a></Link>
                             <Link href="/about"><a className="nav-mb-font">About Us</a></Link>
                             <Link href="/client"><a className="nav-mb-font">Clients</a></Link>
                             <Link href="/contact"><a className="nav-mb-font">Contact Us</a></Link>
                         </div>
-                        <a href="" className="icon" onClick={handleClick}>
+                        <a className="icon" onClick={handleClick}>
 
                             <span className="burger-mb"><i className="icon ion-md-menu"></i></span>
                         </a>
