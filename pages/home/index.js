@@ -33,22 +33,21 @@ function Home() {
                     <div className="products">
                         <div className="products__name">
                             <ul className="chemical-list">
-                                <li><a href="#" className="chemical-list-button">Biocides</a></li>
-                                <li><a href="#" className="chemical-list-button">Corrosion Inhibitors</a></li>
-                                <li><a href="#" className="chemical-list-button">Defoamers</a></li>
-                                <li><a href="#" className="chemical-list-button">Degreasers</a></li>
-                                <li><a href="#" className="chemical-list-button">Demulsifiers</a></li>
-                                <li><a href="#" className="chemical-list-button">Dewaxers</a></li>
-                                <li><a href="#" className="chemical-list-button">Dispersants</a></li>
-                                <li><a href="#" className="chemical-list-button">Emulsifiers</a> </li>
-                                <li><a href="#" className="chemical-list-button">Microbiocides</a></li>
-                                <li><a href="#" className="chemical-list-button">Paraffin Inhibitors</a></li>
-                                <li><a href="#" className="chemical-list-button">Paraffin Solvents</a></li>
-                                <li><a href="#" className="chemical-list-button">Polyelectrolyte</a></li>
-                                <li><a href="#" className="chemical-list-button">Scale Inhibitors</a></li>
-                                <li><a href="#" className="chemical-list-button">Sludge Breakers</a></li>
-                                <li><a href="#" className="chemical-list-button">Water Clarifiers</a></li>
-                                <li><a href="#" className="chemical-list-button">Wetting Agents</a></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Corrosion Inhibitors</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Defoamers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Degreasers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Demulsifiers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Dewaxers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Dispersants</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Emulsifiers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Microbiocides</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Paraffin Inhibitors</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Paraffin Solvents</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Polyelectrolyte</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Scale Inhibitors</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Sludge Breakers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Water Clarifiers</a></Link></li>
+                                <li><Link href="/functions"><a href="#" className="chemical-list-button">Wetting Agents</a></Link></li>
                             </ul>
                         </div>
                         <div className="products__info">
@@ -106,7 +105,7 @@ function Home() {
                 <div className="about-section col">
                     <div className="col-6">
                         <section className="about-block">
-                            <p> Humigrati chemical company was incorporated on February 13, 1997.
+                            <p>Humigrati Chemical Company Limited was incorporated on February 13, 1997.
                             Since incorporation, the company has been extensively involved in the oil service projects specifically
                             in the areas of effluent water monitoring, crude oil/crude characterization analysis, bottle tests for selection
                             of effective demulsifiers, water clarifier, paraffin inhibitor, wax dissolving chemicals, microbiocides
@@ -117,7 +116,7 @@ function Home() {
                     </div>
                     <div className="col-6">
                         <section className="about-block">
-                        <a href="/about"><img src="/assets/images/building.jpg" className="responsive-img" alt="Office building" /></a>
+                        <Link href="/about"><a ><img src="/assets/images/building.jpg" className="responsive-img" alt="Office building" /></a></Link>
                         </section>
                     </div>
                 </div>
