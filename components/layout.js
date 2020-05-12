@@ -72,9 +72,9 @@ const Layout = props => {
                     <div className="col-footer">
                         <div><h2>Services</h2> </div>
                         <ul className="footer-links">
-                            <li><span><i className="bottom-icon ion-md-arrow-dropright" /></span><Link href="/services"><a href="#">Production Chemicals</a></Link></li>
-                            <li><i className="bottom-icon ion-md-arrow-dropright" /><Link href="/services"><a>Drilling Chemicals</a></Link></li>
-                            <li><i className="bottom-icon ion-md-arrow-dropright" /><Link href="/services"><a>Crude Oil Analysis</a></Link></li>
+                            <li><span><i className="bottom-icon ion-md-arrow-dropright" /></span><Link href="/service"><a href="#">Products and Applications</a></Link></li>
+                            <li><i className="bottom-icon ion-md-arrow-dropright" /><Link href="/service"><a>Crude Oil Analysis</a></Link></li>
+                            <li><i className="bottom-icon ion-md-arrow-dropright" /><Link href="/service"><a>Effluent Water Monitoring</a></Link></li>
                         </ul>
 
                     </div>
