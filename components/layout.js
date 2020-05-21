@@ -43,7 +43,7 @@ const Layout = props => {
                             </ul>
                         </div>
                     </div>
-                    
+
                 </header>
                 <header className="header-mb">
                     <div className="topnav">
@@ -93,7 +93,7 @@ const Layout = props => {
 
                 </div>
 
-                <div className="inc"><div className="inc-text">©2020 Humigrati Chemical Company Ltd. All rights reserved.| <a href="disclaimer">Disclaimer</a> |  Website designed and built by <a href="https://korien.dev">korien</a></div></div>
+                <div className="inc"><div className="inc-text">©2020 Humigrati Chemical Company Ltd. All rights reserved.| <a href="disclaimer">Disclaimer</a> |  Website designed and built by <a href="https://korien.now.sh/">korien</a></div></div>
             </footer>
         </main>
     )
