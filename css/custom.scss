@@ -233,6 +233,7 @@
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
+  line-height: 2rem;
 }
 .title-paragraph {
   text-align: center;
@@ -411,7 +412,9 @@ footer h2 {
   text-align: center;
   padding: 2rem;
 }
-
+.no-p {
+  padding: 0rem;
+}
 .section-title {
   font-weight: 600;
   font-size: 1.6rem;

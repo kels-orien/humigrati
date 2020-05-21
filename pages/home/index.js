@@ -98,7 +98,7 @@ function Home() {
 
 
             <section className="about-us-home bg-white">
-                <div className="our-header">
+                <div className="our-header no-p">
                     <header><h2 className="section-title">About Our Company</h2></header>
 
                 </div>
