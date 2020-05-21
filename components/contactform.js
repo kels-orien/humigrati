@@ -37,7 +37,7 @@ function contactform() {
                         <div className="contact-name">
                             <label className="contact-name-label">
                                 Name
-            </label>
+                            </label>
                             <div className="contact-name-fs">
                                 <input type="text" className="contact-name-input" id="name" name="name" required="required" />
                             </div>

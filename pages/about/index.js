@@ -3,7 +3,7 @@ import Layout from "../../components/layout"
 
 function About() {
     return (
-        <Layout>
+        <Layout title={"About Us | Humigrati Chemical Company Limited"}/>
             <div className=" bg-white  use-margin">
             <div className="text-center m-bottom">  
                     <h className="section-title">About Us</h>
