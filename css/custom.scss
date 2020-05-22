@@ -965,3 +965,45 @@ footer h2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+
+.faqs-service li h3 {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  position: relative;
+  padding-top: 5px;
+  background: #efefef;
+  padding: 15px 30px 15px 20px;
+  margin: 0;
+}
+
+.faqs-service li {
+margin-bottom: 10px;
+}
+
+.faqs-service li h3:hover, .faqs-service li h4.active {
+color: #fff;
+background: $color-primary;
+}
+
+.client-section {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.faq {
+margin-left:3rem;
+margin-right:3rem;
+}
+
+.col-8 {
+max-width: 60rem;
+margin: 0 auto;
+}
+
+.p-left {
+  padding-left: 1rem;
+}
