@@ -15,14 +15,15 @@ const Layout = props => {
     }
 
     return (
-        <main>
+        <React.Fragment>
             <Head>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <title>{props.title}</title>
                 <meta name="description" content="At Humigrati, we have been providing chemicals to the oilfield production market 
                 for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
                 includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "></meta>
-                <title>{props.title}</title>
+                
                 <style dangerouslySetInnerHTML={{ __html: Style }} />
             </Head>
 
@@ -63,9 +64,6 @@ const Layout = props => {
                 </header>
 
             </div>
-
-
-
             {props.children}
             <footer className="bottom">
                 <div className="bottom-links">
@@ -95,7 +93,7 @@ const Layout = props => {
 
                 <div className="inc"><div className="inc-text">©2020 Humigrati Chemical Company Ltd. All rights reserved.| <a href="disclaimer">Disclaimer</a> |  Website designed and built by <a href="https://korien.now.sh/">korien</a></div></div>
             </footer>
-        </main>
+        </React.Fragment>
     )
 }
 

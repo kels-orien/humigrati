@@ -1,3 +1,6 @@
+const sitemap = require('nextjs-sitemap-generator');
+
+
 module.exports = {
   webpack: (config, { dev }) => {
     config.module.rules.push(
