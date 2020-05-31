@@ -23,7 +23,7 @@ const Layout = props => {
                 <meta name="description" content="At Humigrati, we have been providing chemicals to the oilfield production market 
                 for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
                 includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "></meta>
-                
+                <link rel="icon" href="/assets/images/favicon.ico" />
                 <style dangerouslySetInnerHTML={{ __html: Style }} />
             </Head>
 
