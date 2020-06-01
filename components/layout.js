@@ -35,6 +35,7 @@ const Layout = props => {
                 for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
                 includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more."/>
                  <meta name="brand" content="Humigrati Chemical Company Limited"/>
+                 <meta name="google-site-verification" content="zVFJffwpq1FcUMLrdxYOqoqXSjWJ9i3FVsiwIqSkxRM" />
                 <link rel="icon" href="/assets/images/favicon.ico" />
                 <style dangerouslySetInnerHTML={{ __html: Style }} />
             </Head>
