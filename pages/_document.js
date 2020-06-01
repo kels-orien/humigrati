@@ -11,6 +11,7 @@ export default class extends Document {
         <Head>
         </Head>
         <body>
+        <meta name="google-site-verification" content="zVFJffwpq1FcUMLrdxYOqoqXSjWJ9i3FVsiwIqSkxRM" />
           <Main />
           <NextScript />
         </body>
