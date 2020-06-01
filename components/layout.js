@@ -18,11 +18,23 @@ const Layout = props => {
         <React.Fragment>
             <Head>
                 <meta charSet="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>{props.title}</title>
                 <meta name="description" content="At Humigrati, we have been providing chemicals to the oilfield production market 
                 for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
-                includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "></meta>
+                includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more. "/>
+                <meta name="keywords" content="Humigrati Chemical Company Limited, humigrati,chemicals,chemical,oil,gas, production chemicals,
+                 drilling chemicals, petrochemical products, crude oil analysis, defoamers,foamers,biocides,corrosion,inhibitor,emulsifier,
+                 solvent,scale,surfacants,demulsifier,paraffin,scavengers,
+                hydrate,chemistries,chemistry,engineer, effluent water monitoring, and laboratory services, procurement"/>
+                 <meta name="author" content="Humigrati Chemical Company Limited"/>
+                 <meta property="og:url" content="https://www.humigrati.com"/>
+                 <meta property="og:type" content="website"></meta>
+                 <meta property="og:description" content="At Humigrati, we have been providing chemicals to the oilfield production market 
+                for many years with adaptable solutions for ever changing conditions and regulations. Our portfolio
+                includes demulsifiers, corrosion inhibitors, sludge breakers, biocides, primary and secondary emulsifiers, and many more."/>
+                 <meta name="brand" content="Humigrati Chemical Company Limited"/>
                 <link rel="icon" href="/assets/images/favicon.ico" />
                 <style dangerouslySetInnerHTML={{ __html: Style }} />
             </Head>
