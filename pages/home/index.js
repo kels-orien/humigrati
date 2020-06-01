@@ -7,6 +7,7 @@ import ContactForm from "../../components/contactform"
 function Home() {
     return (
         <React.Fragment>
+            <meta name="google-site-verification" content="zVFJffwpq1FcUMLrdxYOqoqXSjWJ9i3FVsiwIqSkxRM" />
             <section className="banner" aria-label="Optimising Oil Operations">
                 <div className="container">
                     <section className="description-wrapper" aria-label="Humigrati has been extensively involved in  oil service projects specifically in the areas of effluent water monitoring,
