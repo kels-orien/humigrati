@@ -1,12 +1,7 @@
 const sitemap = require('nextjs-sitemap-generator');  
 
 sitemap({  
-  alternateUrls: {  
-      en: 'https://humigrati.en',  
-      es: 'https://humigrati.es',  
-      ja: 'https://humigrati.jp',  
-      fr: 'https://humigrati.fr',  
-  },  
+ 
   baseUrl: process.env.SITE_URL || "https://humigrati.com",  
   ignoredPaths: ['admin'],
   extraPaths: ['/extraPath'],

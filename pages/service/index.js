@@ -8,7 +8,7 @@ function Service() {
 
       <div className=" bg-white use-margin">
       <div className="text-center">  
-                    <h3 className="section-title m-bottom">Services</h3>
+                    <h1 className="section-title m-bottom">Services</h1>
                     <p className="section-paragraph">
                         In the oil and gas industries, there's only one way to keep your edge
                         - innovation. Navigate through our Services to find a novel solution to your oil and gas challenges.

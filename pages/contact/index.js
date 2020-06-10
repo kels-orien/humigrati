@@ -8,7 +8,7 @@ function Contact() {
         <Layout title={"Contact Us | Humigrati Chemical Company Limited"}>
             <div className="bg-white top-align">
                 <div className="text-center m-bottom">  
-                    <h className="section-title">Contact Us</h>
+                    <h1 className="section-title">Contact Us</h1>
                 </div>
                 <div className="contact-container">
 

@@ -6,7 +6,7 @@ function About() {
         <Layout title={"About Us | Humigrati Chemical Company Limited"}>
             <div className=" bg-white  use-margin">
             <div className="text-center m-bottom">  
-                    <h className="section-title">About Us</h>
+                    <h1 className="section-title">About Us</h1>
                 </div>
                 <div className="col-6">
                     <section className="about-section about-block">

@@ -6,7 +6,7 @@ function Clients() {
             <div className=" bg-white client-section use-margin">
                 <div>
                 <div className="text-center m-bottom">  
-                    <h className="section-title">Our Clients</h>
+                    <h1 className="section-title">Our Clients</h1>
                     <p className="section-paragraph">
                     We have in place, a prudent management board and technical team of seasoned managers, as well as consultants,
                     who through various delivery networks, ensures our clients get technical competence, reliability, promptness
