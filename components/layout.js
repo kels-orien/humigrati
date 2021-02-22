@@ -207,7 +207,7 @@ const Layout = (props) => {
 
         <div className="inc">
           <div className="inc-text">
-            ©2020 Humigrati Chemical Company Ltd. All rights reserved.|{" "}
+            ©2021 Humigrati Chemical Company Ltd. All rights reserved.|{" "}
             <a href="disclaimer">Disclaimer</a> | Website designed and built by{" "}
             <a href="https://korien.now.sh/">korien</a>
           </div>
